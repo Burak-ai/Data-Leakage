@@ -1,13 +1,5 @@
 """ Data leakage (or leakage) happens when your 
  training data contains information about the target
-
-
-Target leakage occurs when your predictors include data that will 
-not be available at the time you make predictions
-
-
-If your validation is based on a simple train-test split,exclude the 
-validation data from any type of fitting, including the fitting of preprocessing steps.
 """
 
 import pandas as pd
