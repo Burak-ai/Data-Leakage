@@ -37,3 +37,9 @@ expenditures_cardholders = X.expenditure[y]
 expenditures_noncardholders = X.expenditure[~y]
 
 
+print('Fraction of those who did not receive a card and had no expenditures: %.2f' \
+      %((expenditures_noncardholders == 0).mean()))
+print('Fraction of those who received a card and had no expenditures: %.2f' \
+      %(( expenditures_cardholders == 0).mean()))
+
+
