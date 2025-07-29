@@ -53,4 +53,3 @@ cv_scores = cross_val_score(my_pipeline, X2, y,
 
 print("Cross-val accuracy: %f" % cv_scores.mean())
 
-
