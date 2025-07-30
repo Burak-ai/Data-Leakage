@@ -1,7 +1,3 @@
-""" Data leakage (or leakage) happens when your 
- training data contains information about the target
-"""
-
 import pandas as pd
 from sklearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestClassifier
