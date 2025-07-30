@@ -8,7 +8,6 @@ data = pd.read_csv('AER_credit_card_data.csv',
                    true_values = ['yes'], false_values = ['no'])
 
 y = data.card
-
 X = data.drop(['card'], axis=1)
 
 print("Number of rows in the dataset:", X.shape[0])
